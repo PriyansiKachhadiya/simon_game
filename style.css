@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+
+}
+.red{
+    background-color: red;
+}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
+.blue{background-color: blue;}
+.btn{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: black;
+}
